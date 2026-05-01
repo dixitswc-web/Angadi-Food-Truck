@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angadi Food Truck</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Angadi Food Truck</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Street food with soul</p>
+          <h1>Authentic Indian Street Food on Wheels</h1>
+          <p class="hero-text">Savor saffron-rich biryani, crispy dosa, spicy samosa, and bold Indo-Chinese flavors in a premium food truck experience.</p>
+          <div class="hero-actions">
+            <a href="#menu" class="btn btn-primary">View Menu</a>
+            <a href="#contact" class="btn btn-secondary">Contact</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="food-card food-card-large">
+            <img src="https://images.unsplash.com/photo-1604908177522-1d5f9ee3d9dd?auto=format&fit=crop&w=800&q=80" alt="Biryani" loading="lazy" />
+            <span>Biryani Bliss</span>
+          </div>
+          <div class="food-card food-card-small food-card-top">
+            <img src="https://images.unsplash.com/photo-1577653564842-7b33f73ea78b?auto=format&fit=crop&w=600&q=80" alt="Dosa" loading="lazy" />
+            <span>Golden Dosa</span>
+          </div>
+          <div class="food-card food-card-small food-card-bottom">
+            <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=600&q=80" alt="Samosa" loading="lazy" />
+            <span>Street Samosa</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu-section container">
+      <div class="section-heading">
+        <p>Menu</p>
+        <h2>Browse our authentic street food menu</h2>
+      </div>
+      <div class="menu-intro">
+        <p>See our current menu offerings in the gallery below.</p>
+      </div>
+
+      <div class="menu-gallery" id="menuGallery">
+        <figure class="menu-screenshot">
+          <img src="menu1.png" alt="Menu screenshot 1" onerror="this.src='https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=900&q=80'" />
+        </figure>
+        <figure class="menu-screenshot">
+          <img src="menu2.png" alt="Menu screenshot 2" onerror="this.src='https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=900&q=80'" />
+        </figure>
+        <figure class="menu-screenshot">
+          <img src="menu3.png" alt="Menu screenshot 3" onerror="this.src='https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=900&q=80'" />
+        </figure>
+        <figure class="menu-screenshot">
+          <img src="menu4.png" alt="Menu screenshot 4" onerror="this.src='https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=900&q=80'" />
+        </figure>
+      </div>
+    </section>
+
+    <section id="about" class="about-section container split-section">
+      <div>
+        <div class="section-heading">
+          <p>About Us</p>
+          <h2>The spirit of Indian street food</h2>
+        </div>
+        <p>Angadi Food Truck celebrates the vibrant energy of chai stalls, roadside carts, and late-night food markets. Our menu blends authentic masalas, crisp textures, and bold flavors into a premium street food experience that travels to your neighborhood.</p>
+        <p>Every dish is designed to feel familiar, yet refined — the kind of food that draws a crowd, sparks cravings, and becomes the highlight of any event.</p>
+      </div>
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=900&q=80" alt="Indian food culture" />
+      </div>
+    </section>
+
+    <section class="reviews-section container">
+      <div class="section-heading">
+        <p>Reviews</p>
+        <h2>What our customers love</h2>
+      </div>
+      <div class="reviews-grid">
+        <article class="review-card">
+          <p>“The best biryani on wheels — deeply spiced and perfect every time. Truly a premium street food experience.”</p>
+          <span>— Neha R.</span>
+        </article>
+        <article class="review-card">
+          <p>“The dosa is crisp and the chutneys are amazing. Great for quick events and group orders.”</p>
+          <span>— Arjun S.</span>
+        </article>
+        <article class="review-card">
+          <p>“Loved the Indo-Chinese noodles, very flavorful and made fresh. Perfect blend of street and gourmet.”</p>
+          <span>— Priya M.</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="events" class="events-section container split-section">
+      <div class="events-copy">
+        <div class="section-heading">
+          <p>Book Us</p>
+          <h2>Book Us for Events</h2>
+        </div>
+        <p>Bring Angadi Food Truck to your next festival, corporate event, wedding, or private party. We handle setup, fresh cooking, and a menu designed for crowds that crave flavor.</p>
+        <ul>
+          <li>Custom catering packages</li>
+          <li>Private pop-up food truck bookings</li>
+          <li>Quick event menus and on-site service</li>
+          <li>Perfect for markets, office lunches, and celebrations</li>
+        </ul>
+      </div>
+      <div class="events-image">
+        <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=900&q=80" alt="Food truck event" />
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section container">
+      <div class="section-heading">
+        <p>Contact</p>
+        <h2>Get in touch</h2>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form" id="contactForm">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="you@example.com" required />
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Tell us about your event or order"></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <div class="contact-details">
+          <div class="contact-card">
+            <h3>Call Us</h3>
+            <p>+1 919-355-8004</p>
+          </div>
+          <div class="contact-card">
+            <h3>Email</h3>
+            <p>hello@angadifoodtruck.com</p>
+          </div>
+          <div class="contact-card">
+            <h3>Social</h3>
+            <div class="social-icons">
+              <a href="#" aria-label="Instagram">IG</a>
+              <a href="#" aria-label="Facebook">FB</a>
+              <a href="#" aria-label="WhatsApp">WA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>Angadi Food Truck — premium Indian street food template. Ready to customize for any food truck, festival, or pop-up.</p>
+    <small>Designed for fast edits: change name, menu, images, and colors in seconds.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
